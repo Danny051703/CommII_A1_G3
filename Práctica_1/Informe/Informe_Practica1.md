@@ -3,22 +3,20 @@
 
 ### Integrantes
 - **Danny Carolina Sierra Téllez** - 2220409
-- **Michel Dayanna Salazar Gómez** - 2214194
+- **Duban Andretti Gutierréz León** - 2220
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
 
 ### Fecha
-07 de marzo de 2025
+31 de agosto de 2025
 
 ---
 ## Contenido
 
 ### Resumen
-En esta práctica, se utilizó el sofware GNU Radio, así como equipos tales como el osciloscopio, el analizador de espectros y el USRP 2920. Se empezó a familiarizar con conceptos básicos sobre el uso de estas herramientas, mediante la simulación de flujogramas, así como la integración de los equipos para tomar medidas en el dominio del tiempo y frecuencia. Dentro de las medidas claves en comunicaciones, se encuentran el ancho de banda, relación señal a ruido, piso de ruido, potencia y diferentes análisis que permiten ver la variación de la señal, ruido y transmisión de la misma; confirmando el comportamiento teórico esperado.
+En esta práctica se implementaron conceptos de radio definida por software (SDR) utilizando la plataforma GNU Radio. El trabajo incluyó la familiarización con el manejo de repositorios en GitHub desde un entorno de programación colaborativo, integrando la terminal local con la nube para simular un trabajo similar al de la industria. Se desarrollaron bloques de programación en Python para implementar funciones como un acumulador, diferenciador y otros operadores estadísticos sobre señales en el dominio del tiempo. Estas implementaciones permitieron fortalecer la comprensión de los sistemas de comunicaciones digitales en tiempo real y evidenciaron la flexibilidad de GNU Radio para el diseño, análisis y evaluación de sistemas de procesamiento de señales.
 
-
-**Palabras clave:** GNU Radio, Espectro de Frecuencia, USRP 2920. 
 
 ### Introducción
 En comunicaciones es clave el procesamiento y análisis de las señales para garantizar un buen proceso de transmisión y recepción de mensajes. Dentro de las medidas que están directamente relacionadas a estas, se destacan: la potencia, el piso de ruido y el ancho de banda; escenciales para buscar mejoras y evaluar los procesos de los sistemas de comunicación. Ahora bien, en la asignatura se hace uso de la herramienta de GNU Radio, así como de otros equipos de laboratorio como osciloscopio, analizador de espectros, antenas, radio entre otros; los cuales, permiten estudiar la relación de las medidas anteriormente mencionadas en el cambio de diferentes condiciones a señales.
