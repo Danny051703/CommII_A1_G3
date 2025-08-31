@@ -19,7 +19,9 @@ En esta práctica se implementaron conceptos de radio definida por software (SDR
 
 
 ### Introducción
-En comunicaciones es clave el procesamiento y análisis de las señales para garantizar un buen proceso de transmisión y recepción de mensajes. Dentro de las medidas que están directamente relacionadas a estas, se destacan: la potencia, el piso de ruido y el ancho de banda; escenciales para buscar mejoras y evaluar los procesos de los sistemas de comunicación. Ahora bien, en la asignatura se hace uso de la herramienta de GNU Radio, así como de otros equipos de laboratorio como osciloscopio, analizador de espectros, antenas, radio entre otros; los cuales, permiten estudiar la relación de las medidas anteriormente mencionadas en el cambio de diferentes condiciones a señales.
+La Radio Definida por Software (SDR) cumple un papel fundamental en las telecomunicaciones modernas gracias a su flexibilidad y adaptabilidad. Esta tecnología permite que una misma plataforma soporte múltiples estándares y pueda soportar una amplia variedad de señales sólo con usar una computadora y software especializado, reconfigurando tareas relacionadas con la transmisión y recepción de señales de radiofrecuencia.
+En el marco de la práctica, se implementaron bloques en Python dentro de GNU Radio para simular funciones clásicas tales como un acumulador, diferenciador y operadores estadísticos de las señales en el tiempo como: la media, media cuadrática, valor RMS, densidad de potencia espectral y desviación estándar. Dichos bloques ofrecen una herramienta útil para analizar el comportamiento de señales digitales en tiempo real y constituyen una base para el desarrollo de aplicaciones más avanzadas en escenarios de la vida real en telecomunicaciones.
+
 
 ## Declaración de Originalidad y Responsabilidad
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
