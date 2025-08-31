@@ -31,36 +31,16 @@ Uso de IA: Se utilizó para reformular ciertas secciones del texto, verificar gr
 ---
 ## Contenido
 
-## **Objetivo General**
+### **Metodología**
+La práctica se desarrolló en 3 etapas principales:
 
-Familiarizarse con el uso de herramientas de software definido por radio (SDR) como GNU Radio, junto con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000. Aprender a medir y analizar parámetros clave en comunicaciones, como potencia, ancho de banda, relación señal a ruido (SNR) y piso de ruido.
+1. Gestión del repositorio en GitHub: 
+En esta primera etapa se creó la rama  principal de esta entrega, denominada Practica_1. Dentro de esta rama se organizó la estructura de carpetas requeridas en la guía de laboratorio. Adicionalmente, se ejecutaron los diferentes comandos de Git en el repositorio local, lo que permitió evidenciar los cambios y el progreso del trabajo en la plataforma de GitHub.
 
----
+2. Implementación en GNU Radio: 
+En la segunda etapa, se empleó la aplicación de GNU Radio para programar los bloques en Python, tomando como referencia el libro guía mencionado en la práctica. Se corrigieron errores y se ejecutaron las diferentes funciones de acumulador, diferenciador y operadores estadísticos. Además, se incorporaron bloques adicionales como Vector Source, QT GUI time sink y  QT GUI number sink para la generación y visualización de las señales en tiempo real.
 
-### Procedimiento
+3. Documentación y entrega: 
+En la última etapa  se integraron los aportes individuales de los integrantes y se procedió a elaborar el presente informe de manera colaborativa dentro del repositorio.
 
-## **Materiales y Equipos**
-- **USRP 2920**: Radio definido por software.
-- **Osciloscopio R&S RTB2004**: Para visualización de señales en el dominio del tiempo y frecuencia.
-- **Analizador de Espectros R&S FPC1000**: Para mediciones en el dominio de la frecuencia.
-- **Computador con GNU Radio**: Para simulación y generación de señales usando el USRP 2920.
-- **Cables y conectores**: Para interconexión de equipos.
-
----
-
-## **Actividad 1: Revisión de Especificaciones de los Equipos**
-
-### **Objetivo**
-Familiarizarse con las especificaciones técnicas de los equipos de laboratorio y entender cómo configurarlos para realizar mediciones.
-
-### **Procedimiento**
-1. Se revisaron los manuales sobre cada uno de los equipos usados durante el desarrollo de las clases de laboratorio, con el fin de identificar especificaciones relevantes así como modo de uso, herramientas y controles de los mismos.
-  
-2. **Evidencia  y especificaciones Relevantes**:
-   *USRP 2920*
-      - Rango de frecuencia:  50MGz a 2.2GHz
-      - Ganancia configurable: 0 a 31.5dB pasos de 0.5dB
-      - Ancho de banda: 20M a 40MHz
-      - Resolución de frecuencia: <1kHz
-      - Potencia máxima de salida: 50m a 100mW
         
